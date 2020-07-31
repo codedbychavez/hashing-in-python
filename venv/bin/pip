@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/chavez/Google Drive (developer.chavezharris@gmail.com)/DCT/Posts/hashing_in_python/repo/hashes-and-message-digests-in-python/venv/bin/python3.7" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
